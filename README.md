@@ -39,3 +39,41 @@ caracteres, truncando ou preenchendo com espaços quando necessário.
 hashes com as chaves name, cpf, state e value.
 
 **Questão 02**
+
+O objetivo desta questão é extender a solução acima de modo que o formato do string retornado seja configurável.
+
+Considere um arquivo yaml no seguinte modelo. As chaves de primeiro nível (name, cpf, etc) representam atributos do hash e não são
+fixas (quer dizer, elas podem diferir de um arquivo yaml para outro). As chaves de segundo nível são sempre as mesmas: length, align,
+e padding.
+
+#### length
+
+Com quantos caracteres deve ser formatado esse campo no output. Se o conteúdo do campo ultrapassar esse comprimento, ele
+deve ser truncado.
+
+#### align
+
+Indica se o conteúdo do campo deve ser alinhado a esquerda ou a direita.
+
+#### padding
+
+Caso o conteúdo do cammpo seja mais curto que a length especificada, o padding indica se o espaço restante deve ser preenchido
+com espaços em branco ou zero.
+
+Exemplo yaml 1
+
+#### format-1.yaml
+```yaml
+cpf:
+length: 11
+align: left
+padding: spaces
+name:
+length: 14
+align: left
+padding: spaces
+value:
+length: 8
+align: right
+padding: zeroes
+``
