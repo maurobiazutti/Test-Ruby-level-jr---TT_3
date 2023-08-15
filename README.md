@@ -11,7 +11,6 @@ Tecnologias Usadas no test TT_3
 O objetivo desta questão é escrever um método que receba uma lista de hashes e retorne um string.
 
 Considere o seguinte código.
-
 ```ruby
 input = [
   { name: 'Maria Neusa de Aparecida',
