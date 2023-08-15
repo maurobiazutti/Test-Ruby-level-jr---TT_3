@@ -63,6 +63,7 @@ com espaços em branco ou zero.
 Exemplo yaml 1
 
 #### format-1.yaml
+
 ```yaml
 cpf:
 length: 11
