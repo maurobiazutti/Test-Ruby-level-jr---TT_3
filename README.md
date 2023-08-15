@@ -37,3 +37,5 @@ A sua tarefa é preencher o conteúdo do método solucao de modo que:
 caracteres, truncando ou preenchendo com espaços quando necessário.
 - O método deve funcionar mesmo com argumentos diferentes do exemplo acima. A única garantia é que será sempre uma lista de
 hashes com as chaves name, cpf, state e value.
+
+**Questão 02**
