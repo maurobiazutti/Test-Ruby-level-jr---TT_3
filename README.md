@@ -66,15 +66,46 @@ Exemplo yaml 1
 
 ```yaml
 cpf:
-length: 11
-align: left
-padding: spaces
+  length: 11
+  align: left
+  padding: spaces
 name:
-length: 14
-align: left
-padding: spaces
+  length: 14
+  align: left
+  padding: spaces
 value:
-length: 8
-align: right
-padding: zeroes
-``
+  length: 8
+  align: right
+  padding: zeroes
+```  
+
+
+**Questão 3**
+
+O objetivo desta questão é implementar a operação inversa da questão 2.
+
+Isto é: escreva um método que recebe como argumento um string e retorna um hash. A forma como ele deve ler o string para extrair os
+valores é dada por um arquivo yaml como os da questão 2.
+
+Por exemplo, se seguirmos o arquivo “format-1.yaml”.
+
+```yaml
+cpf:
+  length: 11
+  align: left
+  padding: spaces
+name:
+  length: 14
+  align: left
+  padding: spaces
+value:
+  length: 8
+  align: right
+  padding: zeroes
+```  
+
+Um método corretamente implementado deve se comportar da seguinte forma:
+```ruby
+solucao("97905796671Maria Neusa de00001234") == { cpf: '97905796671', name: 'Maria Neusa de', value: '1234' }
+solucao("44010762900Ricardo Fontes00000567") == { cpf: '44010762900', name: 'Ricardo Fontes', value: '567' }
+```  
