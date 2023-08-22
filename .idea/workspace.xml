@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="775bfcad-01de-4e94-aea6-ab92baf47a7a" name="Changes" comment="commit inicial">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="775bfcad-01de-4e94-aea6-ab92baf47a7a" name="Changes" comment="commit Questão 02">
+      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Test-Ruby-level-jr---TT_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Test-Ruby-level-jr---TT_3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,8 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -71,6 +74,7 @@
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="775bfcad-01de-4e94-aea6-ab92baf47a7a" name="Changes" comment="" />
@@ -79,7 +83,9 @@
       <option name="presentableId" value="Default" />
       <updated>1692059216052</updated>
       <workItem from="1692059217646" duration="4380000" />
-      <workItem from="1692063709235" duration="1282000" />
+      <workItem from="1692063709235" duration="1609000" />
+      <workItem from="1692758742711" duration="563000" />
+      <workItem from="1692759316867" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="commit inicial">
       <created>1692060698744</created>
@@ -123,7 +129,28 @@
       <option name="project" value="LOCAL" />
       <updated>1692064006787</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit Questão 02">
+      <created>1672970644885</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672970644885</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commit Questão 02">
+      <created>1672970679530</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672970679530</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commit Questão 02">
+      <created>1692065181411</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692065181411</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +170,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Readme inicial" />
     <MESSAGE value="commit inicial" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit inicial" />
+    <MESSAGE value="commit Questão 02" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit Questão 02" />
   </component>
 </project>
