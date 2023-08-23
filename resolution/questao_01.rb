@@ -34,3 +34,8 @@ def solucao(arg)
   puts format_dados.join("\n")
 end
 solucao(file_binding.eval(file_content))
+
+#Saida
+# Maria Neusa97905796671Sao Paulo  1234
+# Ricardo Fon44010762900Rio Grande 567
+# Rick       80107290   Rio        157

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="775bfcad-01de-4e94-aea6-ab92baf47a7a" name="Changes" comment="add dados_input, Refatoração questão_01">
-      <change beforePath="$PROJECT_DIR$/resolution/questao_01.rb" beforeDir="false" afterPath="$PROJECT_DIR$/resolution/questao_01.rb" afterDir="false" />
-    </list>
+    <list default="true" id="775bfcad-01de-4e94-aea6-ab92baf47a7a" name="Changes" comment="pdf com os exercicios" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,21 +56,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/mauro/Área de Trabalho/clone-tt-3/Test-Ruby-level-jr---TT_3/resolution",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ruby.rails.projectView.checked": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mauro/Área de Trabalho/clone-tt-3/Test-Ruby-level-jr---TT_3/resolution&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resolution" />
@@ -142,6 +140,7 @@
       <workItem from="1692758742711" duration="563000" />
       <workItem from="1692759316867" duration="22000" />
       <workItem from="1692759345382" duration="1914000" />
+      <workItem from="1692762204330" duration="804000" />
     </task>
     <task id="LOCAL-00001" summary="commit inicial">
       <created>1692060698744</created>
@@ -241,7 +240,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692761926517</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add dados_input, Refatoração questão_01">
+      <created>1692762841446</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1692762841446</updated>
+    </task>
+    <task id="LOCAL-00016" summary="pdf com os exercicios">
+      <created>1692762993803</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1692762993803</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,10 +279,11 @@
     <MESSAGE value="Resolução questão_01" />
     <MESSAGE value="Refatoração questão_01" />
     <MESSAGE value="add dados_input, Refatoração questão_01" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dados_input, Refatoração questão_01" />
+    <MESSAGE value="pdf com os exercicios" />
+    <option name="LAST_COMMIT_MESSAGE" value="pdf com os exercicios" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Test_Ruby_level_jr___TT_3@questao_01.rcov" NAME="questao_01 Coverage Results" MODIFIED="1692762175779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Test-Ruby-level-jr---TT_3" />
-    <SUITE FILE_PATH="coverage/Test_Ruby_level_jr___TT_3@dados_input.rcov" NAME="dados_input Coverage Results" MODIFIED="1692762094576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Test-Ruby-level-jr---TT_3" />
+    <SUITE FILE_PATH="coverage/Test_Ruby_level_jr___TT_3@questao_01.rcov" NAME="questao_01 Coverage Results" MODIFIED="1692762797842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Test-Ruby-level-jr---TT_3" />
+    <SUITE FILE_PATH="coverage/Test_Ruby_level_jr___TT_3@dados_input.rcov" NAME="dados_input Coverage Results" MODIFIED="1692762575643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Test-Ruby-level-jr---TT_3" />
   </component>
 </project>
