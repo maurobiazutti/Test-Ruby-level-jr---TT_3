@@ -1,3 +1,9 @@
+# # Questão 1
+
+file_content = File.read('dados_input.rb')
+file_binding = binding
+file_binding.eval(file_content)
+
 def solucao(arg)
   format_dados = arg.map do |item|
     name = if item[:name].to_s.length < 11
@@ -25,28 +31,8 @@ def solucao(arg)
             end
     "#{name}#{cpf}#{state}#{value}"
   end
-  format_dados.join("\n")
+  puts format_dados.join("\n")
 end
+solucao(file_binding.eval(file_content))
 
-input = [
-  {
-    name: 'Maria Neusa de Aparecida',
-    cpf: '97905796671',
-    state: 'Sao Paulo',
-    value: '1234'
-  },
-  {
-    name: 'Ricardo Fontes',
-    cpf: '44010762900',
-    state: 'Rio Grande do Sul',
-    value: '567'
-  },
-  {
-    name: 'Rick',
-    cpf: '88010762900',
-    state: 'Rio',
-    value: '157'
-  }
-]
 
-puts solucao(input)
