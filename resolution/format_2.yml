@@ -1,0 +1,18 @@
+# # format-2.yaml
+
+ cpf:
+   length: 14
+   align: right
+   padding: zeroes
+ value:
+   length: 8
+   align: right
+   padding: zeroes
+ state:
+   length: 14
+   align: left
+   padding: spaces
+
+# O retorno esperado seria:
+# "0009790579667100001234Sao Paulo
+#  0004401076290000000567Rio Grande do "

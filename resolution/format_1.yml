@@ -1,0 +1,18 @@
+# # format-1.yaml
+
+cpf:
+  length: 11
+  align: left
+  padding: spaces
+name:
+  length: 14
+  align: left
+  padding: spaces
+value:
+  length: 8
+  align: right
+  padding: zeroes
+
+# O retorno esperado seria:
+# "97905796671Maria Neusa de00001234
+#  44010762900Ricardo Fontes00000567"
