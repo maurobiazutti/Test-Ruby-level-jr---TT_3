@@ -1,6 +1,6 @@
 # # Questão 1
 
-file_content = File.read('dados_input.rb')
+file_content = File.read('resolution/dados_input.rb')
 file_binding = binding
 file_binding.eval(file_content)
 
@@ -34,5 +34,3 @@ def solucao(arg)
   puts format_dados.join("\n")
 end
 solucao(file_binding.eval(file_content))
-
-
