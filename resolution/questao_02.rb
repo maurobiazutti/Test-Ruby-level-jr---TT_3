@@ -78,6 +78,45 @@ formatter = HashesToString.new(file_binding.eval(file_content))
 formatted_string = formatter.hashes_to_string
 formatted_string
 
+################### Solução 02 ###################
+
+require 'yaml'
+
+def solucao(arg, yaml_config_path)
+  # 1. Carrega as configurações do arquivo YAML
+  config = YAML.load_file(yaml_config_path)
+
+  arg.map do |item|
+    linha = ""
+
+    # 2. Itera sobre as chaves do YAML para garantir a ordem configurada
+    config.each do |campo, regras|
+      # Garante que o valor vire string e busca do hash (suporta chave string ou symbol)
+      valor = (item[campo.to_sym] || item[campo]).to_s
+
+      length  = regras['length'].to_i
+      align   = regras['align']
+      padding = regras['padding'] == 'zeroes' ? '0' : ' '
+
+      # 3. Trunca o valor se ele for maior que o permitido
+      valor = valor[0...length]
+
+      # 4. Aplica o alinhamento e o padding dinamicamente
+      if align == 'right'
+        valor = valor.rjust(length, padding)
+      else
+        valor = valor.ljust(length, padding)
+      end
+
+      # Junta o campo formatado na linha atual
+      linha << valor
+    end
+
+    linha
+  end.join("\n")
+end
+
+
 # Saida  format_1.yml
 # 97905796671Maria Neusa de00001234
 # 44010762900Ricardo Fontes00000567
